@@ -11,33 +11,29 @@
 
 ## 導入の手順(10 分ほど)
 
-### 1. Mac
+いちばん簡単なのは、**iPhone / iPad の TailDesk を先に入れて、アプリの「はじめに」に沿って進める**方法です。Mac には iPhone からリンクを送れます。
 
-1. [Tailscale for Mac](https://tailscale.com/download/mac) を入れてログインし、接続をオンにします。
-2. このページの [Releases](../../releases/latest) から `TailDeskHost-x.y.z.zip` をダウンロードして開き、`TailDeskHost.app` を「アプリケーション」フォルダに移します。
-3. TailDeskHost を開くと「TailDesk を使う準備」が出ます。表示に沿って次を行います。
-   - **画面収録**: 「許可する」→ システム設定で TailDeskHost をオン → 「再起動」
-   - **アクセシビリティ**: 「許可する」→ システム設定で TailDeskHost をオン(進まないときは「再起動」)
-   - **ログイン時に自動で起動**: 「オンにする」
-4. メニューバーに TailDesk のアイコンが出ていれば準備完了です。
-
-### 2. iPad / iPhone
+### 1. iPhone / iPad
 
 1. 受け取った TestFlight の招待リンクを開き、TestFlight アプリから TailDesk を入れます。
-2. App Store から [Tailscale](https://apps.apple.com/app/tailscale/id1470499037) を入れ、**Mac と同じアカウント**でログインして接続をオンにします。
-3. TailDesk を開くと「はじめに」のチェックリストが出ます。Tailscale につながると自動でチェックが付きます。
+2. TailDesk を開くと「はじめに」が出ます。その順に進めてください(Tailscale を入れる → Mac にリンクを送る → QR を読む)。
 
-### 3. つなぐ
+### 2. Mac
 
-1. Mac のメニューバーの TailDesk から「ペアリング開始…」を選ぶと QR コードが出ます。
-2. iPad / iPhone の TailDesk で「＋」→「QR を読む」で読み取り、Mac に出ている 6 桁のコードを入力します。
-3. 次からはアプリを開くだけで前回の Mac につながります(自宅など別の場所からでもつながります)。
+1. iPhone から届いたリンク(または [TailDesk のダウンロード](https://github.com/ken-kurosu/taildesk-releases/releases/latest/download/TailDeskHost.zip))をクリックします。
+2. ダウンロードされた「TailDeskHost」を開き、「開いてもよいですか」で「開く」、「アプリケーションフォルダに入れて開きます」で「入れる」を押します。
+3. 「TailDesk の準備」が出ます。上から順にボタンを押すだけです。
+   - Tailscale を入れてログイン(iPhone / iPad と同じアカウント)
+   - 画面を映す許可・操作する許可(設定が開くので TailDeskHost のスイッチをオン)
+4. 終わると QR コードが出るので、iPhone / iPad の TailDesk で読み取れば完了です。
+
+ログイン時の自動起動と、電源につないでいる間のスリープ防止は TailDesk が自動で行います。
 
 ## よくあること
 
 - **Tailscale で「管理者の承認が必要」と出る**: Tailscale の管理画面(https://login.tailscale.com/admin/machines)でその端末を承認してください。
 - **QR を出しても見えない**: 最新版では QR の窓が最前面に出ます。古い版を使っている場合は更新してください。
-- **Mac がスリープしているとつながりません**: 電源につなぎ、スリープしない設定にしてください(システム設定 → バッテリー → オプション、または Amphetamine などのアプリ)。
+- **Mac がスリープしているとつながりません**: 電源につないでおけば、TailDesk がスリープを止めます(バッテリーのときは止めません)。
 
 ## 端末をなくしたとき
 
