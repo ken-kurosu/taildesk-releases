@@ -29,6 +29,18 @@
 
 ログイン時の自動起動と、電源につないでいる間のスリープ防止は TailDesk が自動で行います。
 
+## Mac から別の Mac を操作する
+
+自宅の Mac からオフィスの Mac を操作する、といった使い方もできます。操作する側の Mac は Apple シリコン(M1 以降)が必要です(iPad 版の TailDesk をそのまま Mac で動かします)。
+
+1. **操作される側の Mac** は、上の「2. Mac」の手順で TailDesk(Mac 用)を入れておきます。
+2. **操作する側の Mac** で App Store から「TestFlight」を入れ、TestFlight の招待リンクをその Mac で開いて TailDesk をインストールします(iPhone / iPad と同じ Apple ID なら、TestFlight の一覧にもう出ています)。
+3. 操作する側の Mac にも Tailscale を入れ、同じアカウントでログインします。
+4. 操作される側の Mac のメニューバーの TailDesk →「ペアリング開始…」で窓を出します。
+5. 操作する側の Mac で TailDesk を開き、右上の「+」→「手入力」で、窓に出ている「Mac の住所」(100.x.x.x)・12 桁の指紋・6 桁のコードを入れれば完了です(Mac ではカメラで QR を読まないため、手入力にします)。
+
+マウスとキーボードはそのまま操作される側の Mac に届きます。
+
 ## よくあること
 
 - **Tailscale で「管理者の承認が必要」と出る**: Tailscale の管理画面(https://login.tailscale.com/admin/machines)でその端末を承認してください。
