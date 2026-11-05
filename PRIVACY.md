@@ -1,12 +1,16 @@
-# TailDesk プライバシーポリシー
+# DokoDesk プライバシーポリシー
 
-最終更新: 2026-10-19
+最終更新: 2026-11-05
 
-TailDesk(以下「本アプリ」)は、利用者が自分の Mac を自分の iPad / iPhone から操作するためのアプリです。
+DokoDesk(旧名 TailDesk。以下「本アプリ」)は、利用者が自分の Mac を自分の iPhone / iPad / Mac から操作するためのアプリです。
 
 ## 収集する情報
 
 本アプリの開発者は、利用者の個人情報・画面の映像・音声・入力内容・クリップボードの内容を収集しません。分析ツールや広告の仕組みも使っていません。
+
+## 月額プランのお支払い
+
+月額プランの購入・更新・解約は Apple の App Store で行われます。お支払いの情報(カード番号など)は Apple が扱い、開発者は受け取りません。開発者が受け取るのは、Apple から届く売上の集計だけです。
 
 ## 通信
 
@@ -29,4 +33,5 @@ TailDesk(以下「本アプリ」)は、利用者が自分の Mac を自分の i
 
 ## お問い合わせ
 
-kurosu@i-kasa.com
+- メール: kurosu@i-kasa.com
+- GitHub: https://github.com/ken-kurosu/taildesk-releases/issues
