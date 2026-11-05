@@ -1,4 +1,4 @@
-# DokoDesk(旧名 DokoDesk)
+# DokoDesk(旧名 TailDesk)
 
 外出先の iPhone / iPad / Mac から、自分の Mac を操作するリモートデスクトップです。
 通信は [Tailscale](https://tailscale.com)(無料の VPN)を通り、iPad / iPhone と Mac が直接つながります。映像や操作が第三者のサーバーを経由することはありません。
@@ -24,7 +24,7 @@
 2. ダウンロードされた「TailDeskHost」を開き、「開いてもよいですか」で「開く」、「アプリケーションフォルダに入れて開きます」で「入れる」を押します。
 3. 「DokoDesk の準備」が出ます。上から順にボタンを押すだけです。
    - Tailscale を入れてログイン(iPhone / iPad と同じアカウント)
-   - 画面を映す許可・操作する許可(設定が開くので TailDeskHost のスイッチをオン)
+   - 画面を映す許可・操作する許可(設定が開くので DokoDesk(TailDeskHost と出ることもあります)のスイッチをオン)
 4. 終わると QR コードが出るので、iPhone / iPad の DokoDesk で読み取れば完了です。
 
 ログイン時の自動起動と、電源につないでいる間のスリープ防止は DokoDesk が自動で行います。
