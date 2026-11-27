@@ -24,11 +24,11 @@ The easiest way: **install DokoDesk on your iPhone / iPad first and follow "Gett
 
 ### 2. Mac
 
-1. Open the link you sent from your iPhone, or download **[DokoDesk for Mac](https://github.com/ken-kurosu/taildesk-releases/releases/latest/download/TailDeskHost.zip)**.
-2. Open the downloaded app ("TailDeskHost"). If macOS asks whether to open it, choose **Open**. When asked to move it to the Applications folder, choose **Move**.
+1. Open the link you sent from your iPhone, or download **[DokoDesk for Mac](https://github.com/ken-kurosu/taildesk-releases/releases/latest/download/DokoDesk.zip)**.
+2. Open the downloaded app ("DokoDesk"). If macOS asks whether to open it, choose **Open**. When asked to move it to the Applications folder, choose **Move**.
 3. The "DokoDesk setup" window appears. Press the buttons from top to bottom:
    - Install Tailscale and **sign in with the same account** as your iPhone / iPad
-   - Allow **Screen Recording** and **Accessibility** (System Settings opens — turn on the switch for DokoDesk; it may be listed as "TailDeskHost")
+   - Allow **Screen Recording** and **Accessibility** (System Settings opens — turn on the switch for DokoDesk)
 4. A QR code appears. Scan it with DokoDesk on your iPhone / iPad. Done.
 
 DokoDesk for Mac starts automatically at login and keeps the Mac awake while it's on power.
@@ -52,7 +52,7 @@ The first month is free. After that, a monthly or yearly subscription (prices ar
 
 - **Tailscale says "needs approval"**: approve the device in the Tailscale admin console (https://login.tailscale.com/admin/machines).
 - **Can't connect**: make sure DokoDesk for Mac is running (menu-bar icon), both devices show "Connected" in Tailscale with the same account, and the Mac isn't asleep. While on power, DokoDesk keeps the Mac awake (not on battery).
-- **The screen is black or input doesn't work**: on the Mac, check System Settings → Privacy & Security → Screen Recording and Accessibility, and turn DokoDesk (TailDeskHost) on.
+- **The screen is black or input doesn't work**: on the Mac, check System Settings → Privacy & Security → Screen Recording and Accessibility, and turn DokoDesk on.
 
 ## If you lose a device
 
