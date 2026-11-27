@@ -24,11 +24,11 @@
 
 ### 2. Mac
 
-1. iPhone から届いたリンク(または [DokoDesk のダウンロード](https://github.com/ken-kurosu/taildesk-releases/releases/latest/download/TailDeskHost.zip))をクリックします。
-2. ダウンロードされた「TailDeskHost」を開き、「開いてもよいですか」で「開く」、「アプリケーションフォルダに入れて開きます」で「入れる」を押します。
+1. iPhone から届いたリンク(または [DokoDesk のダウンロード](https://github.com/ken-kurosu/taildesk-releases/releases/latest/download/DokoDesk.zip))をクリックします。
+2. ダウンロードされた「DokoDesk」を開き、「開いてもよいですか」で「開く」、「アプリケーションフォルダに入れて開きます」で「入れる」を押します。
 3. 「DokoDesk の準備」が出ます。上から順にボタンを押すだけです。
    - Tailscale を入れてログイン(iPhone / iPad と同じアカウント)
-   - 画面を映す許可・操作する許可(設定が開くので DokoDesk(TailDeskHost と出ることもあります)のスイッチをオン)
+   - 画面を映す許可・操作する許可(設定が開くので DokoDeskのスイッチをオン)
 4. 終わると QR コードが出るので、iPhone / iPad の DokoDesk で読み取れば完了です。
 
 ログイン時の自動起動と、電源につないでいる間のスリープ防止は DokoDesk が自動で行います。
