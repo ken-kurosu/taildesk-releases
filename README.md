@@ -1,7 +1,11 @@
 # DokoDesk(旧名 TailDesk)
 
+**日本語** | [English](README.en.md)
+
+> **Mac 専用です。** 操作できるのは Mac だけで、Windows・Linux のパソコンには対応していません。
+
 外出先の iPhone / iPad / Mac から、自分の Mac を操作するリモートデスクトップです。
-通信は [Tailscale](https://tailscale.com)(無料の VPN)を通り、iPad / iPhone と Mac が直接つながります。映像や操作が第三者のサーバーを経由することはありません。
+通信は [Tailscale](https://tailscale.com)(無料の別アプリ)を通り、iPad / iPhone と Mac が直接つながります。映像や操作が第三者のサーバーを経由することはありません。
 
 ## 必要なもの
 
@@ -15,7 +19,7 @@
 
 ### 1. iPhone / iPad
 
-1. App Store で「DokoDesk」を入れます(テスト版は TestFlight の招待リンクから)。
+1. App Store で「DokoDesk」を入れます。
 2. DokoDesk を開くと「はじめに」が出ます。その順に進めてください(Tailscale を入れる → Mac にリンクを送る → QR を読む)。
 
 ### 2. Mac
@@ -34,10 +38,10 @@
 自宅の Mac からオフィスの Mac を操作する、といった使い方もできます。操作する側の Mac は Apple シリコン(M1 以降)が必要です(iPad 版の DokoDesk をそのまま Mac で動かします)。
 
 1. **操作される側の Mac** は、上の「2. Mac」の手順で DokoDesk(Mac 用)を入れておきます。
-2. **操作する側の Mac** で App Store から「TestFlight」を入れ、TestFlight の招待リンクをその Mac で開いて DokoDesk をインストールします(iPhone / iPad と同じ Apple ID なら、TestFlight の一覧にもう出ています)。
+2. **操作する側の Mac** で、App Store から「DokoDesk」を入れます。
 3. 操作する側の Mac にも Tailscale を入れ、同じアカウントでログインします。
 4. 操作される側の Mac のメニューバーの DokoDesk →「ペアリング開始…」で窓を出します。
-5. 操作する側の Mac で、TestFlight から入れた **DokoDesk** を開きます(Launchpad かアプリケーションフォルダの「DokoDesk」。メニューバーに出る DokoDesk ではありません)。
+5. 操作する側の Mac で、App Store から入れた **DokoDesk** を開きます(Launchpad かアプリケーションフォルダの「DokoDesk」。メニューバーに出る DokoDesk ではありません)。
 6. 最初の画面の「**Mac を追加する**」を押し、4 の窓に出ている「Mac の住所」(100.x.x.x)を入れて「次へ」。続けて 12 桁の指紋と 6 桁のコードを入れて「ペアリング」を押せば完了です(Mac ではカメラで QR を読まないため、番号を入れてつなぎます)。
 
 マウスとキーボードはそのまま操作される側の Mac に届きます。
